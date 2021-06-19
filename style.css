@@ -1,0 +1,1187 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fffdf9;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Fredoka One", cursive;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Fredoka One", cursive;
+  font-size: 35px;
+}
+
+h3 {
+  font-family: "Fredoka One", cursive;
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* TOPNAV */
+.navbar {
+  position: relative;
+  background: #4a3931;
+  width: 100%;
+  height: 80px;
+  left: 0;
+  top: 0;
+}
+
+.topnav {
+  position: absolute;
+  left: 516px;
+  top: 29px;
+}
+
+.topnav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.topnav a.active {
+  text-decoration: underline;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/* LOGO */
+.logo {
+  position: relative;
+  left: 470px;
+  top: 22px;
+  margin-bottom: 40px;
+  width: 500px;
+}
+
+.logo img {
+  height: auto;
+  width: 500px;
+}
+
+/* HERO-HOME */
+.hero-home {
+  position: relative;
+  margin-top: 50px;
+}
+
+.hero-home img {
+  width: 100%;
+  height: auto;
+}
+
+/* MAIN HOME */
+.hero-section {
+  position: relative;
+  background: #4a3931;
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.hero-section h3 {
+  position: absolute;
+  color: white;
+  left: 378px;
+  top: 85px;
+}
+
+.brew-section {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 144px;
+}
+
+.brew-section img {
+  width: 100%;
+  height: 450px;
+  left: 0;
+}
+
+.online-section {
+  position: relative;
+  margin-bottom: 144px;
+}
+
+.online-section img {
+  width: 100%;
+  height: 450px;
+  left: 0;
+}
+
+.findus-section {
+  position: relative;
+  margin-bottom: 144px;
+}
+
+.findus-section img {
+  width: 100%;
+  height: 450px;
+  left: 0;
+}
+
+.brew-backgr {
+  background: white;
+  position: absolute;
+  width: 427px;
+  height: 60px;
+  left: 507px;
+  top: 195px;
+}
+
+.online-backgr {
+  background: white;
+  position: absolute;
+  width: 620px;
+  height: 60px;
+  left: 410px;
+  top: 195px;
+}
+
+.findus-backgr {
+  background: white;
+  position: absolute;
+  width: 384px;
+  height: 60px;
+  left: 528px;
+  top: 195px;
+}
+
+.brew-section a,
+.online-section a,
+.findus-section a {
+  position: absolute;
+  font-family: "Fredoka One", cursive;
+  font-size: 35px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  left: 18px;
+  top: 9px;
+}
+
+.brew-section a:hover,
+.online-section a:hover,
+.findus-section a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+.footer {
+  background: #4a3931;
+  position: relative;
+  width: 100%;
+  height: 319px;
+  left: 0;
+}
+
+.footer-links {
+  position: absolute;
+  left: 493px;
+  top: 56px;
+}
+
+.footer a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-right: 87px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.img-cup {
+  position: absolute;
+  left: 605px;
+  top: 129px;
+  width: 230px;
+  height: 66px;
+}
+
+.copyright {
+  color: white;
+  position: absolute;
+  left: 504px;
+  top: 239px;
+}
+
+/* MAIN ABOUT */
+.about1 {
+  position: relative;
+  background: #fffdf9;
+  height: 687px;
+  width: 100%;
+  left: 0;
+}
+
+.about2 {
+  position: relative;
+  background: #4a3931;
+  height: 244px;
+  width: 100%;
+  left: 0;
+}
+
+.about3 {
+  position: relative;
+  background: #fffdf9;
+  height: 687px;
+  width: 100%;
+  left: 0;
+}
+
+.about1-pic,
+.about3-pic {
+  position: absolute;
+  background: #ccc;
+  height: 350px;
+  width: 400px;
+  left: 858px;
+  top: 168px;
+}
+
+.about1-text h2,
+.about3-text h2 {
+  position: absolute;
+  top: 85px;
+  left: 183px;
+  text-transform: uppercase;
+}
+
+.about1-text p,
+.about3-text p {
+  position: absolute;
+  top: 152px;
+  left: 183px;
+  width: 527px;
+  height: 345px;
+  line-height: 30px;
+}
+
+.about2-text {
+  position: absolute;
+  top: 107px;
+  left: 849px;
+  color: white;
+}
+
+.about2-img {
+  position: absolute;
+  left: 174px;
+  top: 44px;
+}
+
+/* HERO CONTACT */
+.hero-contact {
+  position: relative;
+}
+
+.hero-contact img {
+  width: 100%;
+  height: 450px;
+}
+
+/* MAIN CONTACT */
+.contact-section {
+  background: #fffdf9;
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.contact-text h2 {
+  position: absolute;
+  top: 112px;
+  left: 508px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contact-text p {
+  position: absolute;
+  top: 179px;
+  left: 420px;
+  width: 600px;
+  height: 210px;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* HERO FIND US */
+.hero-findus h2 {
+  position: relative;
+  width: 336px;
+  left: 552px;
+  margin-top: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+
+/* MAIN FIND US */
+.location1 {
+  position: relative;
+  margin-top: 70px;
+}
+
+.location2,
+.location3,
+.location4 {
+  position: relative;
+  margin-top: 144px;
+}
+
+.location1 img,
+.location2 img,
+.location3 img,
+.location4 img {
+  width: 100%;
+}
+
+.location4 {
+  margin-bottom: 144px;
+}
+
+.location1-backgr,
+.location2-backgr,
+.location3-backgr,
+.location4-backgr {
+  position: absolute;
+  background: white;
+  top: 195px;
+  height: 60px;
+}
+
+.location1-backgr {
+  left: 412px;
+  width: 616px;
+}
+
+.location2-backgr {
+  left: 442px;
+  width: 551px;
+}
+
+.location3-backgr {
+  left: 387px;
+  width: 666px;
+}
+
+.location4-backgr {
+  left: 467px;
+  width: 507px;
+}
+
+.location1-backgr a,
+.location2-backgr a,
+.location3-backgr a,
+.location4-backgr a {
+  position: absolute;
+  left: 18px;
+  top: 9px;
+  font-family: "Fredoka One", cursive;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.location1-backgr a:hover,
+.location2-backgr a:hover,
+.location3-backgr a:hover,
+.location4-backgr a:hover {
+  text-decoration: underline;
+}
+
+/* HERO COFFEE SHOPS */
+.hero-cs h3 {
+  position: relative;
+  left: 531px;
+  margin-top: 81px;
+  width: 380px;
+}
+
+/* MAIN COFFEE SHOPS */
+.cs1-img {
+  margin-top: 81px;
+}
+
+.cs1-img,
+.cs2-img,
+.cs3-img,
+.cs4-img {
+  position: relative;
+}
+
+.cs1-img img,
+.cs2-img img,
+.cs3-img img,
+.cs4-img img {
+  width: 100%;
+  height: 450px;
+  left: 183px;
+}
+
+.cs1,
+.cs2,
+.cs3,
+.cs4 {
+  position: relative;
+  background: #fffdf9;
+  width: 100%;
+  height: 470px;
+}
+
+.cs1-text,
+.cs2-text,
+.cs3-text,
+.cs4-text {
+  position: absolute;
+  left: 183px;
+  top: 82px;
+}
+
+.cs1-text h3,
+.cs2-text h3,
+.cs3-text h3,
+.cs4-text h3 {
+  text-transform: uppercase;
+}
+
+.cs1-text p,
+.cs2-text p,
+.cs3-text p,
+.cs4-text p {
+  width: 526px;
+  height: 161px;
+  line-height: 30px;
+  padding-top: 25px;
+}
+
+.cs1-openinghours,
+.cs2-openinghours,
+.cs3-openinghours,
+.cs4-openinghours {
+  position: absolute;
+  left: 912px;
+  top: 82px;
+  text-align: center;
+}
+
+.cs1-openinghours h3,
+.cs2-openinghours h3,
+.cs3-openinghours h3,
+.cs4-openinghours h3 {
+  text-transform: uppercase;
+}
+
+.cs1-openinghours p,
+.cs2-openinghours p,
+.cs3-openinghours p,
+.cs4-openinghours p {
+  width: 345px;
+  height: 221px;
+  line-height: 35px;
+  padding-top: 25px;
+}
+
+/* MEDIA QUERIES */
+
+/* 425px */
+@media screen and (max-width: 425px) {
+  .topnav {
+    left: 39px;
+  }
+  .topnav a {
+    font-size: 15px;
+  }
+  .logo {
+    left: 40px;
+    width: 350px;
+  }
+  .logo img {
+    width: 350px;
+  }
+
+  /* HOME */
+  .hero-home {
+    display: none;
+  }
+  .hero-section h3 {
+    font-size: 15px;
+    left: 10px;
+  }
+  .brew-section,
+  .online-section,
+  .findus-section {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .brew-section img,
+  .online-section img,
+  .findus-section img {
+    height: auto;
+  }
+  .brew-backgr,
+  .online-backgr,
+  .findus-backgr {
+    top: 40px;
+    left: 40px;
+    width: 350px;
+    height: 45px;
+  }
+  .brew-section a,
+  .online-section a,
+  .findus-section a {
+    font-size: 18px;
+  }
+  .brew-section a {
+    left: 70px;
+  }
+  .online-section a {
+    left: 25px;
+  }
+  .findus-section a {
+    left: 90px;
+  }
+
+  /* ABOUT */
+  .about1-pic,
+  .about3-pic {
+    display: none;
+  }
+  .about1,
+  .about3 {
+    height: 835px;
+  }
+  .about1 h2,
+  .about3 h2 {
+    left: 50px;
+    font-size: 25px;
+  }
+  .about1 p,
+  .about3 p {
+    font-size: 18px;
+    left: 50px;
+    width: 80%;
+  }
+  .about2-img {
+    left: 60px;
+    top: 70px;
+  }
+  .about2-img img {
+    width: 300px;
+  }
+  .about2-text {
+    display: none;
+  }
+
+  /* CONTACT */
+  .hero-contact img {
+    height: auto;
+  }
+  .contact-text h2 {
+    top: 0;
+    font-size: 25px;
+    left: 55px;
+    top: 120px;
+  }
+  .contact-text p {
+    top: 180px;
+    font-size: 18px;
+    left: 40px;
+    width: 80%;
+  }
+
+  /* FIND US */
+  .hero-findus h2 {
+    font-size: 25px;
+    left: 45px;
+  }
+  .location1 {
+    margin-top: 50px;
+  }
+  .location2,
+  .location3,
+  .location4 {
+    margin-top: 70px;
+  }
+  .location4 {
+    margin-bottom: 70px;
+  }
+  .location1-backgr,
+  .location2-backgr,
+  .location3-backgr,
+  .location4-backgr {
+    top: 45px;
+    width: 380px;
+    height: 45px;
+    left: 25px;
+  }
+  .location1-backgr a,
+  .location2-backgr a,
+  .location3-backgr a,
+  .location4-backgr a {
+    font-size: 20px;
+  }
+  .location1-backgr a {
+    left: 25px;
+  }
+  .location2-backgr a {
+    left: 40px;
+  }
+  .location3-backgr a {
+    left: 10px;
+  }
+  .location4-backgr a {
+    left: 55px;
+  }
+
+  /* COFFEE SHOPS  */
+  .hero-cs h3 {
+    left: 65px;
+    font-size: 20px;
+    width: 300px;
+  }
+  .cs1-img img,
+  .cs2-img img,
+  .cs3-img img,
+  .cs4-img img {
+    height: auto;
+  }
+  .cs1,
+  .cs2,
+  .cs3,
+  .cs4 {
+    height: 870px;
+  }
+  .cs1-text,
+  .cs2-text,
+  .cs3-text,
+  .cs4-text {
+    left: 50px;
+  }
+  .cs1-text h3,
+  .cs2-text h3,
+  .cs3-text h3,
+  .cs4-text h3 {
+    font-size: 20px;
+  }
+  .cs1-text p,
+  .cs2-text p,
+  .cs3-text p,
+  .cs4-text p {
+    font-size: 18px;
+    width: 90%;
+  }
+  .cs1-openinghours,
+  .cs2-openinghours,
+  .cs3-openinghours,
+  .cs4-openinghours {
+    text-align: left;
+    top: 450px;
+    left: 50px;
+    padding-top: 50px;
+  }
+  .cs1-openinghours h3,
+  .cs2-openinghours h3,
+  .cs3-openinghours h3,
+  .cs4-openinghours h3 {
+    font-size: 20px;
+  }
+  .cs1-openinghours p,
+  .cs2-openinghours p,
+  .cs3-openinghours p,
+  .cs4-openinghours p {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  /* FOOTER */
+  .footer-links {
+    left: 60px;
+  }
+  .footer-links a {
+    font-size: 18px;
+    padding-right: 50px;
+  }
+  .img-cup {
+    left: 100px;
+  }
+  .copyright {
+    left: 20px;
+  }
+  .copyright p {
+    font-size: 18px;
+  }
+}
+
+/* 600px */
+@media screen and (width: 600px) {
+  .topnav {
+    left: 95px;
+  }
+  .logo {
+    left: 55px;
+  }
+
+  /* HOME */
+  .hero-section h3 {
+    font-size: 20px;
+    left: 30px;
+  }
+  .brew-section,
+  .online-section,
+  .findus-section {
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  .brew-section img,
+  .online-section img,
+  .findus-section img {
+    height: auto;
+  }
+  .brew-backgr {
+    left: 55px;
+    top: 70px;
+    width: 490px;
+  }
+  .online-backgr {
+    left: 55px;
+    top: 80px;
+    width: 490px;
+  }
+  .findus-backgr {
+    left: 55px;
+    top: 70px;
+    width: 490px;
+  }
+  .brew-section a,
+  .online-section a,
+  .findus-section a {
+    font-size: 25px;
+    top: 15px;
+  }
+  .brew-section a {
+    left: 100px;
+  }
+  .online-section a {
+    left: 35px;
+  }
+  .findus-section a {
+    left: 120px;
+  }
+
+  /* ABOUT */
+  .about1-pic,
+  .about3-pic {
+    display: none;
+  }
+  .about1 h2,
+  .about3 h2 {
+    left: 45px;
+  }
+  .about1 p,
+  .about3 p {
+    left: 45px;
+  }
+  .about2-img {
+    left: 100px;
+  }
+  .about2-text {
+    display: none;
+  }
+
+  /* CONTACT */
+  .hero-contact img {
+    height: auto;
+  }
+  .contact-section {
+    height: 400px;
+  }
+  .contact-text h2 {
+    font-size: 30px;
+    top: 100px;
+    left: 110px;
+    text-align: center;
+  }
+  .contact-text p {
+    top: 150px;
+    left: 50px;
+    width: 500px;
+    text-align: center;
+  }
+
+  /* FIND US */
+  .hero-findus h2 {
+    left: 135px;
+    font-size: 30px;
+  }
+  .location2,
+  .location3,
+  .location4 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .location1-backgr,
+  .location2-backgr,
+  .location3-backgr,
+  .location4-backgr {
+    top: 65px;
+    width: 490px;
+    left: 55px;
+  }
+  .location1-backgr a,
+  .location2-backgr a,
+  .location3-backgr a,
+  .location4-backgr a {
+    font-size: 25px;
+    top: 15px;
+  }
+  .location1-backgr a {
+    left: 37px;
+  }
+  .location2-backgr a {
+    left: 60px;
+  }
+  .location4-backgr a {
+    left: 80px;
+  }
+
+  /* COFFEE SHOPS */
+  .hero-cs h3 {
+    left: 110px;
+  }
+  .cs1-img img,
+  .cs2-img img,
+  .cs3-img img,
+  .cs4-img img {
+    height: auto;
+  }
+  .cs1,
+  .cs2,
+  .cs3,
+  .cs4 {
+    height: 840px;
+  }
+  .cs1-text,
+  .cs2-text,
+  .cs3-text,
+  .cs4-text {
+    left: 30px;
+    text-align: center;
+  }
+  .cs1-openinghours,
+  .cs2-openinghours,
+  .cs3-openinghours,
+  .cs4-openinghours {
+    top: 450px;
+    left: 120px;
+  }
+
+  /* FOOTER */
+  .footer-links {
+    left: 100px;
+  }
+  .footer-links a {
+    font-size: 20px;
+  }
+  .img-cup {
+    left: 190px;
+  }
+  .copyright {
+    left: 90px;
+  }
+}
+
+/*-- 768px --*/
+@media screen and (width: 768px) {
+  .topnav {
+    left: 170px;
+  }
+  .logo {
+    left: 130px;
+  }
+
+  /* HOME  */
+  .hero-section h3 {
+    left: 40px;
+  }
+  .brew-section img,
+  .online-section img,
+  .findus-section img {
+    height: auto;
+  }
+  .brew-backgr {
+    left: 55px;
+    top: 90px;
+    width: 650px;
+  }
+  .online-backgr {
+    left: 55px;
+    top: 110px;
+    width: 650px;
+  }
+  .findus-backgr {
+    left: 55px;
+    top: 90px;
+    width: 650px;
+  }
+  .brew-section a {
+    left: 130px;
+  }
+  .online-section a {
+    left: 30px;
+  }
+  .findus-section a {
+    left: 150px;
+  }
+
+  /* ABOUT */
+  .about1-pic,
+  .about3-pic {
+    display: none;
+  }
+  .about1 h2,
+  .about3 h2 {
+    left: 130px;
+  }
+  .about1 p,
+  .about3 p {
+    left: 130px;
+  }
+  .about2-img {
+    left: 180px;
+  }
+  .about2-text {
+    display: none;
+  }
+
+  /* CONTACT */
+  .hero-contact img {
+    height: auto;
+  }
+  .contact-text h2 {
+    left: 160px;
+  }
+  .contact-text p {
+    left: 80px;
+  }
+
+  /* FIND US */
+  .hero-findus h2 {
+    left: 210px;
+  }
+  .location1-backgr,
+  .location2-backgr,
+  .location3-backgr,
+  .location4-backgr {
+    top: 90px;
+    width: 670px;
+    left: 55px;
+  }
+  .location1-backgr a {
+    left: 40px;
+  }
+  .location2-backgr a {
+    left: 75px;
+  }
+  .location4-backgr a {
+    left: 90px;
+  }
+
+  /* COFFEE SHOPS */
+  .hero-cs h3 {
+    left: 190px;
+  }
+  .cs1-img img,
+  .cs2-img img,
+  .cs3-img img,
+  .cs4-img img {
+    height: auto;
+  }
+  .cs1,
+  .cs2,
+  .cs3,
+  .cs4 {
+    height: 840px;
+  }
+  .cs1-text,
+  .cs2-text,
+  .cs3-text,
+  .cs4-text {
+    left: 100px;
+    text-align: center;
+  }
+  .cs1-openinghours,
+  .cs2-openinghours,
+  .cs3-openinghours,
+  .cs4-openinghours {
+    top: 450px;
+    left: 200px;
+  }
+  /* FOOTER */
+  .footer-links {
+    left: 150px;
+  }
+  .img-cup {
+    left: 270px;
+  }
+  .copyright {
+    left: 170px;
+  }
+}
+
+/*-- 1024px --*/
+@media screen and (width: 1024px) {
+  .topnav {
+    left: 300px;
+  }
+  .logo {
+    left: 260px;
+  }
+
+  /* HOME */
+  .hero-section h3 {
+    left: 180px;
+  }
+  .brew-section img,
+  .online-section img,
+  .findus-section img {
+    height: auto;
+  }
+  .brew-backgr {
+    left: 180px;
+    top: 140px;
+    width: 650px;
+  }
+  .online-backgr {
+    left: 180px;
+    top: 150px;
+    width: 650px;
+  }
+  .findus-backgr {
+    left: 180px;
+    top: 140px;
+    width: 650px;
+  }
+  .brew-section a {
+    left: 130px;
+  }
+  .online-section a {
+    left: 30px;
+  }
+  .findus-section a {
+    left: 150px;
+  }
+
+  /* ABOUT */
+  .about1-pic,
+  .about3-pic {
+    left: 600px;
+  }
+  .about1 h2,
+  .about3 h2 {
+    left: 30px;
+  }
+  .about1 p,
+  .about3 p {
+    left: 30px;
+  }
+  .about2-img {
+    left: 30px;
+  }
+  .about2-text {
+    left: 590px;
+  }
+
+  /* CONTACT */
+  .hero-contact img {
+    height: auto;
+  }
+  .contact-text h2 {
+    left: 300px;
+  }
+  .contact-text p {
+    left: 210px;
+  }
+
+  /* FIND US */
+  .hero-findus h2 {
+    left: 350px;
+  }
+  .location1-backgr,
+  .location2-backgr,
+  .location3-backgr,
+  .location4-backgr {
+    top: 130px;
+    width: 670px;
+    left: 180px;
+  }
+  .location1-backgr a {
+    left: 40px;
+  }
+  .location2-backgr a {
+    left: 75px;
+  }
+  .location4-backgr a {
+    left: 90px;
+  }
+
+  /* COFFEE SHOPS */
+  .hero-cs h3 {
+    left: 320px;
+  }
+  .cs1-img img,
+  .cs2-img img,
+  .cs3-img img,
+  .cs4-img img {
+    height: auto;
+  }
+  .cs1-text,
+  .cs2-text,
+  .cs3-text,
+  .cs4-text {
+    left: 70px;
+  }
+  .cs1-openinghours,
+  .cs2-openinghours,
+  .cs3-openinghours,
+  .cs4-openinghours {
+    left: 670px;
+  }
+  /* FOOTER */
+  .footer-links {
+    left: 280px;
+  }
+  .img-cup {
+    left: 400px;
+  }
+  .copyright {
+    left: 300px;
+  }
+}
