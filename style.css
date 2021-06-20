@@ -140,50 +140,34 @@ p {
   left: 0;
 }
 
-.brew-backgr {
-  background: white;
-  position: absolute;
-  width: 427px;
-  height: 60px;
-  left: 507px;
-  top: 195px;
-}
-
-.online-backgr {
-  background: white;
-  position: absolute;
-  width: 620px;
-  height: 60px;
-  left: 410px;
-  top: 195px;
-}
-
+.brew-backgr,
+.online-backgr,
 .findus-backgr {
-  background: white;
   position: absolute;
-  width: 384px;
-  height: 60px;
-  left: 528px;
+  left: 411px;
   top: 195px;
 }
 
-.brew-section a,
-.online-section a,
-.findus-section a {
+.home-btn1,
+.home-btn2,
+.home-btn3 {
   position: absolute;
   font-family: "Fredoka One", cursive;
   font-size: 35px;
   text-decoration: none;
   text-transform: uppercase;
   color: black;
-  left: 18px;
-  top: 9px;
+  background: #fffdf9;
+  width: 620px;
+  padding: 10px 10px;
+  text-align: center;
 }
 
-.brew-section a:hover,
-.online-section a:hover,
-.findus-section a:hover {
-  text-decoration: underline;
+.brew-backgr a:hover,
+.online-backgr a:hover,
+.findus-backgr a:hover {
+  background: #94857b;
+  transition: 1s;
 }
 
 /* FOOTER */
@@ -442,8 +426,7 @@ p {
 .cs3-img img,
 .cs4-img img {
   width: 100%;
-  height: 450px;
-  left: 183px;
+  height: auto;
 }
 
 .cs1,
@@ -549,24 +532,14 @@ p {
   .brew-backgr,
   .online-backgr,
   .findus-backgr {
-    top: 40px;
-    left: 40px;
+    left: 37px;
+    top: 43px;
+  }
+  .home-btn1,
+  .home-btn2,
+  .home-btn3 {
     width: 350px;
-    height: 45px;
-  }
-  .brew-section a,
-  .online-section a,
-  .findus-section a {
     font-size: 18px;
-  }
-  .brew-section a {
-    left: 70px;
-  }
-  .online-section a {
-    left: 25px;
-  }
-  .findus-section a {
-    left: 90px;
   }
 
   /* ABOUT */
@@ -765,35 +738,17 @@ p {
   .findus-section img {
     height: auto;
   }
-  .brew-backgr {
-    left: 55px;
-    top: 70px;
-    width: 490px;
-  }
-  .online-backgr {
-    left: 55px;
-    top: 80px;
-    width: 490px;
-  }
+  .brew-backgr,
+  .online-backgr,
   .findus-backgr {
     left: 55px;
-    top: 70px;
+    top: 64px;
+  }
+  .home-btn1,
+  .home-btn2,
+  .home-btn3 {
     width: 490px;
-  }
-  .brew-section a,
-  .online-section a,
-  .findus-section a {
     font-size: 25px;
-    top: 15px;
-  }
-  .brew-section a {
-    left: 100px;
-  }
-  .online-section a {
-    left: 35px;
-  }
-  .findus-section a {
-    left: 120px;
   }
 
   /* ABOUT */
@@ -936,29 +891,11 @@ p {
   .findus-section img {
     height: auto;
   }
-  .brew-backgr {
-    left: 55px;
-    top: 90px;
-    width: 650px;
-  }
-  .online-backgr {
-    left: 55px;
-    top: 110px;
-    width: 650px;
-  }
+  .brew-backgr,
+  .online-backgr,
   .findus-backgr {
-    left: 55px;
+    left: 74px;
     top: 90px;
-    width: 650px;
-  }
-  .brew-section a {
-    left: 130px;
-  }
-  .online-section a {
-    left: 30px;
-  }
-  .findus-section a {
-    left: 150px;
   }
 
   /* ABOUT */
@@ -1074,29 +1011,11 @@ p {
   .findus-section img {
     height: auto;
   }
-  .brew-backgr {
-    left: 180px;
-    top: 140px;
-    width: 650px;
-  }
-  .online-backgr {
-    left: 180px;
-    top: 150px;
-    width: 650px;
-  }
+  .brew-backgr,
+  .online-backgr,
   .findus-backgr {
-    left: 180px;
-    top: 140px;
-    width: 650px;
-  }
-  .brew-section a {
-    left: 130px;
-  }
-  .online-section a {
-    left: 30px;
-  }
-  .findus-section a {
-    left: 150px;
+    left: 202px;
+    top: 130px;
   }
 
   /* ABOUT */
