@@ -271,7 +271,7 @@ p {
 
 .hero-contact img {
   width: 100%;
-  height: 450px;
+  height: auto;
 }
 
 /* MAIN CONTACT */
