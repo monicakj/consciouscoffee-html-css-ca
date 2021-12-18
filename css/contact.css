@@ -1,0 +1,35 @@
+/* HERO CONTACT */
+.hero-contact {
+  position: relative;
+}
+
+.hero-contact img {
+  width: 100%;
+  height: auto;
+}
+
+/* MAIN CONTACT */
+.contact-section {
+  background: #fffdf9;
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.contact-text h2 {
+  position: absolute;
+  top: 112px;
+  left: 508px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contact-text p {
+  position: absolute;
+  top: 179px;
+  left: 420px;
+  width: 600px;
+  height: 210px;
+  line-height: 30px;
+  text-align: center;
+}

@@ -1,0 +1,90 @@
+/* HERO COFFEE SHOPS */
+.hero-cs h3 {
+  position: relative;
+  left: 531px;
+  margin-top: 81px;
+  width: 380px;
+}
+
+/* MAIN COFFEE SHOPS */
+.cs1-img {
+  margin-top: 81px;
+}
+
+.cs1-img,
+.cs2-img,
+.cs3-img,
+.cs4-img {
+  position: relative;
+}
+
+.cs1-img img,
+.cs2-img img,
+.cs3-img img,
+.cs4-img img {
+  width: 100%;
+  height: auto;
+}
+
+.cs1,
+.cs2,
+.cs3,
+.cs4 {
+  position: relative;
+  background: #fffdf9;
+  width: 100%;
+  height: 470px;
+}
+
+.cs1-text,
+.cs2-text,
+.cs3-text,
+.cs4-text {
+  position: absolute;
+  left: 183px;
+  top: 82px;
+}
+
+.cs1-text h3,
+.cs2-text h3,
+.cs3-text h3,
+.cs4-text h3 {
+  text-transform: uppercase;
+}
+
+.cs1-text p,
+.cs2-text p,
+.cs3-text p,
+.cs4-text p {
+  width: 526px;
+  height: 161px;
+  line-height: 30px;
+  padding-top: 25px;
+}
+
+.cs1-openinghours,
+.cs2-openinghours,
+.cs3-openinghours,
+.cs4-openinghours {
+  position: absolute;
+  left: 912px;
+  top: 82px;
+  text-align: center;
+}
+
+.cs1-openinghours h3,
+.cs2-openinghours h3,
+.cs3-openinghours h3,
+.cs4-openinghours h3 {
+  text-transform: uppercase;
+}
+
+.cs1-openinghours p,
+.cs2-openinghours p,
+.cs3-openinghours p,
+.cs4-openinghours p {
+  width: 345px;
+  height: 221px;
+  line-height: 35px;
+  padding-top: 25px;
+}

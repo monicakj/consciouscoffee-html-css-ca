@@ -1,0 +1,75 @@
+/* HERO-HOME */
+.hero-home {
+  position: relative;
+  margin-top: 50px;
+}
+
+.hero-home img {
+  width: 100%;
+  height: auto;
+}
+
+/* MAIN HOME */
+.hero-section {
+  position: relative;
+  background: #4a3931;
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.hero-section h3 {
+  position: absolute;
+  color: white;
+  left: 378px;
+  top: 85px;
+}
+
+.brew-section img,
+.online-section img,
+.findus-section img {
+  width: 100%;
+  height: auto;
+}
+
+.brew-section {
+  margin-top: 50px;
+}
+
+.brew-section,
+.online-section,
+.findus-section {
+  position: relative;
+  margin-bottom: 144px;
+}
+
+.brew-backgr,
+.online-backgr,
+.findus-backgr {
+  position: absolute;
+  left: 411px;
+  top: 195px;
+}
+
+.home-btn1,
+.home-btn2,
+.home-btn3 {
+  position: absolute;
+  font-family: "Fredoka One", cursive;
+  font-size: 35px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  background: #fffdf9;
+  width: 620px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.brew-backgr a:hover,
+.online-backgr a:hover,
+.findus-backgr a:hover {
+  background: black;
+  color: white;
+  transition: 1s;
+}
